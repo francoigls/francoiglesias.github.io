@@ -16,7 +16,7 @@ const Header = () => {
                 <a href="https://github.com/francoigls">
                     <GitSimbol className='git' />
                 </a>
-                <a href="URL_DE_TU_PERFIL_DE_INSTAGRAM">
+                <a href="https://www.instagram.com/francoigls/">
                     <InstagramSimbol />
                 </a>
                 <a href="https://www.linkedin.com/in/franco-iglesias-81a825243/">
