@@ -1,0 +1,34 @@
+
+  
+  .fullscreen-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+  }
+  
+  .fullscreen-menu button {
+    margin-top: 1rem;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .fullscreen-menu {
+    position: fixed;
+    top: 0;
+    left: -100%; /* Inicialmente oculto */
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Asegurando de que este por encima de otros elementos */
+    transition: left 0.3s ease-in-out; /* Agrega una transicion*/
+  }
+  
+  .fullscreen-menu.active {
+    left: 0; /* Mostrar el menú cuando está activo */
+  }

@@ -1,0 +1,26 @@
+
+.Technologies {
+   
+  margin-left: 15%;
+    width: 320px;
+  }
+  
+  .SoftwareSymbol {
+    font-size: 45px ;
+  }
+
+
+
+
+.ContainerSymbol{
+    display: flex;
+    transform: translateX(10%);
+    gap: 14px ;
+   padding: 10px;
+}
+
+.Parrafo{
+  color: #fc4630;
+  margin-left: 50px;
+  font-size: 20px;
+}

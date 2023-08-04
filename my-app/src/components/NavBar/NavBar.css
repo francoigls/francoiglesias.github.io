@@ -1,0 +1,70 @@
+
+
+
+.nav {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh; /* La barra de navegación ocupa todo el alto de la pantalla */
+    width: 200px; /* Ancho de la barra de navegación */
+    background-color:#33242b;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    display: block;
+}
+
+.nav a:hover {
+    background-color: #513d3d;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+    @media (max-width: 1390px){
+        display: none;
+    }
+}
+
+
+
+.links{
+     position: absolute;
+     top: -700px;
+     left: -2000px;
+     margin-left: auto;
+     margin-left: auto;
+     text-align: center;
+     a{
+
+        color: rgb(90, 18, 191);
+    }
+
+    @media (min-width: 1300px) {
+        
+    }
+}
+
+.links.active{
+    width: 100%;
+    display: block;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 30%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    a{
+
+        color: white;
+    }
+}
+
+  
